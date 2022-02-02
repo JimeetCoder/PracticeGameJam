@@ -27,4 +27,5 @@ public class ShootingController : MonoBehaviour
         RigidBodyBullet.AddForce(ShootingPoint.up * BulletSpeed, ForceMode2D.Impulse);
 
     }
+    
 }
